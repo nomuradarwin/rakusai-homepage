@@ -1,0 +1,107 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 auto;
+    font-size:  100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;  /* 段落間の間隔を広げる */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    background-color: #4CAF50;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    display: block;  /* ブロック要素にする */
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.social-media {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.social-media ul li a i {
+    font-size: 60px;  /* アイコンを大きくする */
+    display: block;
+    margin: 0 auto;
+    color: #000;
+}
+
+.social-media ul li a p {
+    margin: 5px 0 0;
+}
+
+main section {
+    margin-bottom: 20px;
+    color: #6dc970;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
