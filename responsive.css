@@ -1,0 +1,60 @@
+@media only screen and (max-width: 670px) {
+    body {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    nav ul li a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    .social-media ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-media ul li {
+        margin: 10px 0;
+    }
+
+    .social-media ul li a i {
+        font-size: 40px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    main section {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
